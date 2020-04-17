@@ -10,10 +10,10 @@ Uma aplicação React que busca a localização do usuário baseado no seu CEP.
 * [Styled Components](https://styled-components.com/) - CSS in JS
 * [Axios](https://github.com/axios/axios)
 
-## Authors
+## Feito Por
 
 * **Guilherme Fleck Oliveira** 
 
-## Credits
+## Creditos
 
 * [Map Vector from Vecteezy](https://www.vecteezy.com/free-vector/map)
