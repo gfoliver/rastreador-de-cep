@@ -13,3 +13,7 @@ Uma aplicação React que busca a localização do usuário baseado no seu CEP.
 ## Authors
 
 * **Guilherme Fleck Oliveira** 
+
+## Credits
+
+* [Map Vector from Vecteezy](https://www.vecteezy.com/free-vector/map)
