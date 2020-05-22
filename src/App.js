@@ -4,6 +4,7 @@ import InputMask from 'react-input-mask'
 import { location } from './services/api'
 
 import map from './assets/img/map.png'
+import github from './assets/img/github.png'
 import { FiSearch, FiMapPin } from 'react-icons/fi'
 
 import Global from './styles/Global'
@@ -28,7 +29,7 @@ function App() {
     removeAllToasts()
     setLocal(null)
     
-    if (!cep || cep.length < 8 || cep.indexOf('_') != -1) {
+    if (!cep || cep.length < 8 || cep.indexOf('_') !== -1) {
       addToast('CEP Inválido', {appearance: 'error', autoDismiss: true})
       return;
     }
@@ -96,6 +97,14 @@ function App() {
           <div className="mapWrapper">
             <img src={map} alt="Map" className="map"/>
           </div>
+          <a 
+            href="https://github.com/gfoliver/rastreador-de-cep" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="github"
+          >
+            <img src={github} alt="Github"/>
+          </a>
       </div>
     </>
   );

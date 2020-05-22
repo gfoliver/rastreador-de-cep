@@ -30,6 +30,8 @@ export default createGlobalStyle`
         align-items: center;
         min-height: 100vh;
         width: 100%;
+        overflow: hidden;
+        position: relative;
     }
 
     .map {
@@ -44,8 +46,24 @@ export default createGlobalStyle`
         object-fit: contain;
     }
 
+    .github {
+        padding: 15px;
+        background: #CFCFCF;
+        position: absolute;
+        right: 15px;
+        bottom: 30px;
+        border-radius: 10px;
+
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
     h1 {
         font-size: 50px;
+        padding: 0 15px;
         color: #fff;
         font-weight: bold;
         position: absolute;
