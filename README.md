@@ -4,6 +4,10 @@
 
 Uma aplicação React que busca a localização do usuário baseado no seu CEP.
 
+## Teste você mesmo!
+
+https://rastreador-de-cep.herokuapp.com/
+
 ## Feito com
 
 * [ReactJS](https://reactjs.org/)
